@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>My Playlist Sorter</h1>
+    <div class="playlist-name">
+        <h2>Song names</h2>
+        <p id="songList">Rush , Bounce , Sparcle , Fly , Burst</p>
+        <button id="sort-button" onclick="sortA_Z()">Sort A-Z</button>
+        <button id="sort-button2" onclick="sortZ_A()">Sort Z-A</button>
+    </div>
+    <div class="playlist-counts">
+        <h2>Number of songs played</h2>
+        <p id="songCounts">320,390,100,450,280</p>
+        <button id="sort-most" onclick="sortByCount()">Sort Most Played</button>
+        <button id="sort-least" onclick="sortByCountDesc()">Sort Least Played</button>
+    </div>
+    <div class="everycountlabel">
+        <h2>Every Count Label</h2>
+        <p id="everyCountLabel">Press The button below!</p>
+        <button id="sort-every" onclick="displaySongs()">Sort Every Count</button>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+</html>
